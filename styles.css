@@ -1,0 +1,33 @@
+body{
+    background-image: url(Image/img3.jpg); 
+}
+ .navbar-nav{
+     display: flex;
+     list-style: none;
+     float: right;
+     text-transform: uppercase;
+
+ }
+ul li a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+ ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+ }
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: honeydew;
+    background-color: rgb(62, 139, 184 ,0.5);
+    padding: 5px;
+    margin-top: 50px;
+}
+h1:hover{
+    color: rgb(120, 173, 218);
+    border: 1px solid black;
+    background-color: rgb(236, 240, 245);
+    opacity: 1px;
+}
+   
